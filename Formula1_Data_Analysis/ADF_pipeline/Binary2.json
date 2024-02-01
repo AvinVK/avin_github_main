@@ -1,0 +1,19 @@
+{
+    "name": "Binary2",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureDataLakeStorage1",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "Binary",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "Formula1DA/bronze",
+                "fileSystem": "reservoir"
+            }
+        }
+    },
+    "type": "Microsoft.DataFactory/factories/datasets"
+}
